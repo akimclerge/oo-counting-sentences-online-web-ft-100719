@@ -13,11 +13,10 @@ class String
   end
   
   def count_sentences
-    self.split(/[.!?]/).reject {|x| x.empty?}.size
+    self.count
   end
   
  
 
 end
 
-"Well, I don't know, is this a sentence?? ??? What about this?".count_sentences_words
